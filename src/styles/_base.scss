@@ -1,0 +1,14 @@
+@use "./variables" as var;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: monospace;
+
+  background-color: var.$clr-bg-200;
+}
